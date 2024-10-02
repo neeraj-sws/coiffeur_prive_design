@@ -15,23 +15,27 @@
         --text-sub-heading:15px;
         --footer-heading:24px;
         --footer-sub_text:18px;
+        --text-small:12px;
      }
 
-
-
-
+     img, svg {
+        vertical-align: baseline !important;
+    }
       .navbar-nav .nav-link {
         padding-right: 20px;
         color:var(--text-color) !important;
         font-size: var( --text-sub-heading);
         font-weight: 500;
+
       }
- 
       .btn-custom {
+        font-size: var(--para-heading);
         background-color: var(--primary-color); 
         color: var(--secondary-color);
         border-radius: 6px;
+        font-weight: 600;
       }
-      /* .menu_toy{
-        padding-right: 3px;
-      } */
+   
+      .account_login a{
+        font-size:  var(  --text-small) !important;
+      }
