@@ -1,0 +1,30 @@
+
+/* model css start 02-10-2024*/
+.model_container {
+  border-radius: 20px;
+}
+.modal_box .btn_design{
+  font-size: 12px;
+  background-color: var(--light-grey);
+  border-radius: 50px;
+}
+.location .text_box h6{
+  font-size: var(--para-heading);
+}
+.location .text_box p, .delivery_box .text_box p{
+  font-size: var(--text-very-small);
+}
+.delivery_box a.button_box{
+  color: var(--green);
+  text-decoration: none;
+  border: 1px solid var(--green);
+  border-radius: 6px;
+  padding: 3px 14px;
+}
+.modal_second_box .modal_mail_body .heading_box h1{
+  font-size: 27px;
+}
+.location_box .text_box p, .delivery_box .icon_text_box .text_box p{
+  color:var(--gray);
+}
+/* model css end */
