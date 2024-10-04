@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="css/common_css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/common_css/reset.css" rel="stylesheet">
+    <link href="css/pages_css/home.css" rel="stylesheet">
+    <link href="css/common_css/style.css" rel="stylesheet">
+    <link href="css/common_css/modal.css" rel="stylesheet">
+   <link href="css/common_css/responsive.css" rel="stylesheet">
+      <link href="css/all.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container p-5">
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#profileSetting">
+        Profile Modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="profileSetting" tabindex="-1" aria-labelledby="profileSettingLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content model_container p-4 pb-0">
+
+                    <div class="modal-header modal_box border-bottom-0 p-0">
+                        <button type="button" class="btn-close btn_design" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body modal_second_box pt-0">
+                        <div class="modal_main_body">
+                            <div class="heading_box pb-4 text-center">
+                                <h1 class="modal-title fw-bolder work_sans_800" id="profileSettingLabel">Profile Settings</h1>
+                            </div>
+                            
+                            <div class="details_box">
+                        
+                            <form id="profileSetting_form" method="" action="">
+                                <div class="mb-3">
+                                    <label for="phone_number" class="form-label work_sans_600 custom_label mb-0">Phone number</label>
+                                    <div class="item d-flex justify-content-between">
+                                        <input type="text" class="form-control custom_input ps-0" id="phone_number" aria-describedby="emailHelp">
+                                        <a href="javascript:void(0)" class="work_sans_600 custom_ank">Change</a>
+                                    </div>
+                                </div>
+
+                                 <div class="mb-3">
+                                    <label for="email_id" class="form-label work_sans_600 custom_label mb-0 pt-3">Email id</label>
+                                    <div class="item d-flex justify-content-between">
+                                        <input type="email" class="form-control custom_input ps-0" id="email_id">
+                                        <a href="javascript:void(0)" class="work_sans_600 custom_ank">Change</a>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="password" class="form-label work_sans_600 custom_label mb-0 pt-3">Password</label>
+                                    <div class="item d-flex justify-content-between">
+                                        <input type="password" class="form-control custom_input ps-0" id="password">
+                                        <a href="javascript:void(0)" class="work_sans_600 custom_ank">Change</a>
+                                    </div>
+                                </div>
+
+                                <div class="btn_box">
+                                    <a href="javascript:void(0)" class="btn custom_buttom text-center w-100 work_sans_500">Update Profile</a>
+                                </div>
+
+                                </form>
+                            </div>
+
+                        </div>   
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!----------|| Scripts ||---------->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!----------|| Scripts ||---------->
+  </body>
+</html>

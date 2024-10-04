@@ -1,44 +1,44 @@
 
 
-   img, svg {
-      vertical-align: baseline !important;
+img, svg {
+  vertical-align: baseline !important;
+}
+.navbar-nav .nav-link {
+  padding-right: 20px;
+  color:var(--text-color) !important;
+  font-size: var( --text-sub-heading);
+  font-weight: 500;
+
+}
+.btn-custom {
+  font-size: var(--para-heading) !important;
+  background-color: var(--primary-color); 
+  color: var(--secondary-color);
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.account_login a{
+  font-size:  var(  --text-small) !important;
+}
+
+.account_login .nav-item  a img{
+width: 15px;
+}
+.account_login .nav-item {
+  line-height: 15px;
+}
+@media only screen and (max-width: 1098px) {
+  .navbar-brand img{
+    width: 147px;
   }
-    .navbar-nav .nav-link {
-      padding-right: 20px;
-      color:var(--text-color) !important;
-      font-size: var( --text-sub-heading);
-      font-weight: 500;
 
-    }
-    .btn-custom {
-      font-size: var(--para-heading) !important;
-      background-color: var(--primary-color); 
-      color: var(--secondary-color);
-      border-radius: 6px;
-      font-weight: 600;
-    }
- 
-    .account_login a{
-      font-size:  var(  --text-small) !important;
-    }
-
-    .account_login .nav-item  a img{
-    width: 15px;
-    }
-    .account_login .nav-item {
-      line-height: 15px;
-    }
-    @media only screen and (max-width: 1098px) {
-      .navbar-brand img{
-        width: 147px;
-      }
-
-    }
-    @media only screen and (max-width: 991px) {
-      .header_custom .navbar-brand img{
-        width: 180px;
-      }
-    .header_custom .navbar-nav .nav-link {
-        font-size: var(  --footer-sub_text);
-      }
-    }
+}
+@media only screen and (max-width: 991px) {
+  .header_custom .navbar-brand img{
+    width: 180px;
+  }
+.header_custom .navbar-nav .nav-link {
+    font-size: var(  --footer-sub_text);
+  }
+}
