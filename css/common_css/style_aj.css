@@ -1,0 +1,31 @@
+/* ============= common model css start 04-10-2024 ============= */
+a{
+  text-decoration: none;
+}
+  
+/* ============= common model css end 04-10-2024 ============= */
+  
+/* ============= option css start 04-10-2024 ============= */
+.customer_box .customer{
+  border: 1px solid #CCCCCC;
+  border-radius: 20px;
+}
+.main_box .heading_box h2{
+  font-size: var(--main-heading);
+}
+.customer_box .customer .text_box .cust_text{
+  font-size: var(--sub-heading);
+}
+.customer_box .customer .text_box .option_text{
+  color: var(--accent-color);
+  font-size: var(--para-heading);
+}
+.customer_box .customer .button_box .appointment_button{
+  font-size: var(--sub-heading);
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+/* ============= option css end 04-10-2024 ============= */
+  
+ 
+  

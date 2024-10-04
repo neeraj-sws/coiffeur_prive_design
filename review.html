@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="css/common_css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/common_css/reset.css" rel="stylesheet">
+    <link href="css/pages_css/home.css" rel="stylesheet">
+    <link href="css/common_css/style.css" rel="stylesheet">
+    <link href="css/common_css/modal.css" rel="stylesheet">
+   <link href="css/common_css/responsive.css" rel="stylesheet">
+      <link href="css/all.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container p-5">
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#review">
+        Review Modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="review" tabindex="-1" aria-labelledby="passwchangePasswordord" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content model_container p-4 pb-0">
+
+                    <div class="modal-header modal_box border-bottom-0 p-0">
+                        <button type="button" class="btn-close btn_design" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body modal_second_box pt-0">
+                        <div class="modal_main_body">
+                            <div class="heading_box pb-4 text-center">
+                                <h1 class="modal-title fw-bolder work_sans_800" id="passwchangePasswordord">Provide your review</h1>
+                            </div>
+                            
+                            <div class="details_box">
+                            
+                            <div class="price_rating_box">
+                                <div class="total_paid_box">
+                                    <div class="text_paid d-flex justify-content-between">
+                                        <p class="m-0 work_sans_500">Provider</p>
+                                        <p class="total_paid poppins_font_500 m-0">Total Paid: <span class="rate">$150</span></p>
+                                    </div>
+
+                                    <div class="name_date d-flex justify-content-between">
+                                        <div class="text_img d-flex gap-2">
+                                            <img src="D:\vh\coiffeur_prive_design\images\review_img.png" alt="img">
+                                            <p class="text_name work_sans_700">Jeremy Rose</p>
+                                        </div>
+                                        <p class="total_paid poppins_font_500">Mon, Sep 11, 2024, 04:27 PM</p>
+                                    </div>
+                                </div>
+
+                                <div class="rating_box pt-3">
+                                    <div class="rating_text">
+                                        <h5 class="work_sans_600">Select your rating:</h5>
+                                    </div>
+                                    <div class="rating_text">
+                                        <span><i class="far fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                        <img src="" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <form id="review_form" method="" action="">
+                                <div class="mb-3 item">
+                                    <label for="title" class="form-label work_sans_600 custom_label mb-0">Title</label>
+                                    <input type="text" class="form-control custom_input ps-0" id="title" aria-describedby="emailHelp">   
+                                </div>
+
+                                 <div class="mb-3 item">
+                                    <label for="add_review" class="form-label work_sans_600 custom_label mb-0 pt-3">Add Review</label>
+                                    <input type="text" class="form-control custom_input ps-0" id="add_review">
+                                </div>
+
+
+                                <div class="btn_box">
+                                    <a href="javascript:void(0)" class="btn custom_buttom text-center w-100 work_sans_500">Submit Review</a>
+                                </div>
+
+                                </form>
+                            </div>
+
+                        </div>   
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!----------|| Scripts ||---------->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!----------|| Scripts ||---------->
+  </body>
+</html>
